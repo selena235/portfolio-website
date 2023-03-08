@@ -12,6 +12,16 @@
 	background-position: center;
 	
 }
+
+
+
+
+
+
+
+
+
+
 nav{
 	display: flex;
 	align-items: center;
@@ -105,19 +115,19 @@ h4{
 	right: 6px; 
 }
 
-.about{
+#about{
 	width: 100%;
 	padding: 100px 0px;
 	background-color: brown;
 }
-.about img{
+#about img{
 	height: auto;
 	width: 430px;
 }
 .about-text{
 	width: 550px;
 }
-#main{
+.main{
 	width: 1130px;
 	max-width: 95%;
 	margin: 0 auto;
@@ -608,3 +618,14 @@ footer p{
 	color: white;
 	margin-bottom: 10px;
 }
+@media only screen and (max-width:700px){
+	*{
+	  margin-left: 0px;
+	}
+	#about .main img{
+width: 50%;
+	}
+	#about .main .about-text h2{
+		margin-left: 0px;
+			}
+  }
